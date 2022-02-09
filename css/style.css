@@ -1,0 +1,249 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+#navbar{
+    
+    align-items: center;
+    font-family: 'Pacifico', cursive;
+    position: sticky;
+     
+}
+#logo{
+    margin: 10px 34px;
+}
+#logo img{
+    height: 159px;
+    margin: 3px 6px;
+
+}
+#navbar{
+    position: sticky;
+    
+}
+#navbar ul{
+  
+    display: flex;
+    
+}
+#navbar::before{
+    content: " ";
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: .4;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navbar ul li a{
+    border-radius: 24px;
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    color: rgb(121, 115, 115);
+    margin-left: 45px;
+
+}
+#navbar ul li a:hover{
+   background-color: white;
+   color: black;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 100px;
+    justify-content: center;
+    align-items: center;
+    height: 565px;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    
+}
+
+#home::before{
+    content: " ";
+    background: url("../image/bg1.jpg") no-repeat center center/cover ;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: .29;
+}
+#name{
+    font-size: 1.5rem;
+    padding: 10px;
+}
+.primary{
+    font-size: 2rem;
+}
+#home p{
+    font-size: 1.3rem;
+}
+#course{
+    margin: 34px;
+    font-size: 35px;
+    
+}
+.primary-center{
+    margin-left: 95px;
+    margin-top: 25px;
+    font-family: 'Staatliches', cursive;
+    font-size: 45px;
+    color: rgb(70, 65, 65);
+}
+
+#list-item1{
+    margin: 20px;
+    padding: 25px;
+}
+#list-item2{
+    margin: 20px;
+    padding: 25px;
+}
+#list-item3{
+    margin: 20px;
+    padding: 25px;
+}
+#list-item4{
+    margin: 20px;
+    padding: 25px;
+}
+#course{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 100px;
+    justify-content: center;
+    align-items: center;
+    height: 565px;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    
+}
+
+#course::before{
+    content: " ";
+    background: url("../image/bg1.jpg") no-repeat center center/cover ;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: .29;
+}
+#skill{
+    margin: 34px;
+    font-size: 35px;
+    
+}
+.primary1-center{
+    margin-left: 95px;
+    margin-top: 25px;
+    font-family: 'Staatliches', cursive;
+    font-size: 45px;
+    color: rgb(70, 65, 65);
+}
+
+#skill-item1{
+    margin: 10px;
+    padding: 15px;
+}
+#skill-item2{
+    margin: 10px;
+    padding: 15px;
+}
+#skill-item3{
+    margin: 10px;
+    padding: 15px;
+}
+#skill-item4{
+    margin: 10px;
+    padding: 15px;
+}
+#skill-item5{
+    margin: 10px;
+    padding: 15px;
+}
+#skill-item6{
+    margin: 10px;
+    padding: 15px;
+}
+#skill{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 100px;
+    justify-content: center;
+    align-items: center;
+    height: 565px;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    
+}
+
+#skill::before{
+    content: " ";
+    background: url("../image/bg1.jpg") no-repeat center center/cover ;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: .29;
+}
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 100px;
+    justify-content: center;
+    height: 275px;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-size: 20px;
+    
+}
+
+#contact::before{
+    content: " ";
+    background: url("../image/bg1.jpg") no-repeat center center/cover ;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: .08;
+}
+.primary2-center{
+    margin-left: 95px;
+    margin-top: 15px;
+    font-family: 'Staatliches', cursive;
+    font-size: 45px;
+    color: rgb(70, 65, 65);
+}
+input[type=text], input[type=email] {   
+    width: 50%;   
+    margin: 8px 0;  
+    padding: 12px 20px;   
+    display: inline-block;   
+    border: 3px solid rgb(201, 172, 172)  
+    box-sizing: inherit;   
+}  
+.cnl{
+    width: 20%;
+    margin: 8px 0;
+    padding:8px 8px ;
+    display: inline-block;   
+}
+#msg{
+    padding: 20px;
+    
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 100px;
+    justify-content: center;
+    height: 275px;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-size: 20px;
+    
+}
